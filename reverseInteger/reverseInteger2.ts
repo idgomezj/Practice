@@ -17,7 +17,20 @@ class solution2{
     }
 }
 
-
+/*
+Example 1:
+    Input: x = 123
+    Output: 321
+Example 2:
+    Input: x = -123
+    Output: -321
+Example 3:
+    Input: x = 120
+    Output: 21
+Example 4:
+    Input: x = 0
+    Output: 0
+    */
 
 console.log(new solution2().reverse_integer2(131));
 console.log(new solution2().reverse_integer2(-123));
