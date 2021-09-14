@@ -15,5 +15,5 @@ class staircase {
     }
 }
 
-const const_class= new staircase(6)
+const const_class= new staircase(6);
 console.log(const_class.solve())
