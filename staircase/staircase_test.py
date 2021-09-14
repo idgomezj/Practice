@@ -15,8 +15,8 @@ Your Output (stdout)
 """
 
 
-class TestReverseInteger(unittest.TestCase):
-    def test_reverseInteger(self):
+class TestStaircase(unittest.TestCase):
+    def test_staircase(self):
         self.assertEqual(ST.staircase().solve(
             6), "     #\n    ##\n   ###\n  ####\n #####\n######")
 
